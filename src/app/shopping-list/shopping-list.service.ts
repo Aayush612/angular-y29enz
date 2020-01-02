@@ -29,7 +29,7 @@ export class ShoppingListService {
   deleteIngredients(id:number){
     this.ingredients.splice(id,1);
     this.ingredientsChanged.emit(this.ingredients.slice());
-    console.log(this.ingredients.length)
+    // console.log(this.ingredients.length)
 
   }
 }

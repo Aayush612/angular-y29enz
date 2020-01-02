@@ -21,7 +21,7 @@ export class RedHighlightDirective {
   }
 
   @HostListener('mousedown') onMouseDown() {
-    this.highlight("#f08078");
+    this.highlight("#ff5b4f");
     // console.log("click")
   }
 
