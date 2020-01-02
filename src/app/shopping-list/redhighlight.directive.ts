@@ -14,7 +14,7 @@ export class RedHighlightDirective {
 
   @HostListener('mouseup') onMouseUp() {
     this.highlight(null);
-    console.log("Mouseup")
+    // console.log("Mouseup")
     // console.log(this.el.nativeElement.id)
     this.slService.deleteIngredients(this.el.nativeElement.id)
 

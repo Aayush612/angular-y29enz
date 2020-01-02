@@ -24,6 +24,6 @@ export class ShoppingListComponent implements OnInit {
   }
 
   deleteIngredient(id:number){
-    console.log(id);
+    // console.log(id);
   }
 }
