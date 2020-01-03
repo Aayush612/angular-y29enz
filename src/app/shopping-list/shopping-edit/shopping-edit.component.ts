@@ -36,4 +36,8 @@ export class ShoppingEditComponent implements OnInit {
     this.amountInputRef.nativeElement.value="";
   }
 
+  onDeleteItem(){
+    this.slService.deleteAll();
+  }
+
 }
